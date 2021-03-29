@@ -1,0 +1,99 @@
+#teloszam {
+    position: relative;
+    left: 190px;
+    bottom: 40px;
+    height: 30px;
+    width: 60px;
+}
+
+#nev {
+    position: relative;
+    bottom: 10px;    
+}
+
+#telo {
+    position: relative;
+    bottom: 57px; 
+    left: 255px;
+
+}
+
+#szam {
+    position: absolute;
+    left: 200px;
+    top: 57px;
+}
+
+#iranyito {
+    width: 100px;
+    height: 25px;
+}
+
+#fname {
+    height: 25px;
+}
+
+#fname1 {
+    height: 25px;
+    position: relative;
+    bottom: 13px;
+}
+
+#iranyito {
+    position: absolute;
+    top: 165px;
+}
+
+#iriszam {
+    position: absolute;
+    top: 120px;
+}
+
+#varos {
+    height: 32px;
+    width: 300px;
+    position: absolute;
+    left: 132px;
+    top: 165px;
+}
+
+#debrecen {
+    position: absolute;
+    left: 140px;
+    top: 122px;
+}
+
+#orszag {
+    position: absolute;
+    top: 200px;
+}
+
+#magyar {
+    height: 32px;
+    width: 120px;
+    position: absolute;
+    top: 240px;
+}
+
+#cim {
+    height: 28px;
+    width: 290px;
+    position: absolute;
+    left: 132px;
+    top: 240px;
+}
+
+#cimcim {
+    position: absolute;
+    top: 200px;
+    left: 140px;
+}
+
+#mentes {
+    position: absolute;
+    top: 300px;
+    height: 28px;
+    width: 420px;
+    background-color: rgb(51, 161, 51);
+    color: white;
+}

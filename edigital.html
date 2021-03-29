@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edigital</title>
+    <script>
+        function sayhello()
+        {
+            alert("Köszönöm, hogy kitöltötte ezt az űrlapot!")
+        }
+    </script>
+    <link rel="stylesheet" href="edigital.css">
+</head>
+
+<body>
+    <h2><strong>Szállítási cím módosítása</strong></h2>
+    <hr>
+    <form action="/action_page.php" id="nev">
+        <label for="name">Név *</label><br>
+        <input type="text" id="fname" name="fname">
+    </form>
+
+    <p id="szam">Telefonszám *</p>
+
+    <form action="/action_page.php">
+        <select id="teloszam" name="Telefonszám">
+            <label for="name">Telefonszám *</label><br>
+            <option value="36">+36</option>
+        </select>
+    </form>
+
+    <form action="/action_page.php" id="telo">
+        <input type="text" id="fname1" name="fname">
+    </form>
+
+    <p id="iriszam">Irányítószám *</p>
+
+    <form action="/action_page.php">
+        <input type="text" id="iranyito" name="fname"><br><br>
+    </form>
+
+    <p id="debrecen">Város *</p>
+
+    <form action="/action_page.php">
+        <select id="varos" name="varos">
+            <option value="varos">Debrecen</option>
+        </select>
+    </form>
+
+    <p id="orszag">Ország *</p>
+
+    <form action="/action_page.php">
+        <select id="magyar" name="magyar">
+            <option value="magyar">Magyarország</option>
+        </select>
+    </form>
+
+    <p id="cimcim">Cím *</p>
+
+    <form action="/action_page.php">
+        <input type="text" id="cim" name="fname">
+    </form>
+
+
+        <input type="button" onclick="sayhello()" value="Mentés" id="mentes">
+
+
+</body>
+
+</html>
